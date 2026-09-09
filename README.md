@@ -2,7 +2,7 @@
 
 **Problem:** identify fraud-linked exchanges / VASPs from victim-reported suspect wallet addresses through automated blockchain analytics.
 **Sponsor:** Ministry of Home Affairs · **Theme:** Blockchain & Cybersecurity.
-**Positioning:** not a “crypto tracker” — a working **investigation prototype**: wallet in → blockchain analytics → graph → risk → case report.
+**Positioning:** not a "crypto tracker" — a working **investigation prototype**: wallet in → blockchain analytics → graph → risk → case report.
 
 ## 60-second demo flow (judges)
 1. Login `investigator / cyber123`
@@ -26,10 +26,10 @@ docker compose up --build
 ## Architecture
 ```
 Investigator UI (React+Tailwind+ReactFlow) ──► FastAPI ──┬──► Blockchain API (Etherscan live / mock-prototype)
-                                                         ├──► SQLite→Postgres (cases, wallets, txs, entities, risks, audit)
-                                                         └──► Intelligence (seed entity map: exchanges/VASPs)
-                                    Transaction Engine (features + Pattern A/B/C) → Risk Engine (weights + IsolationForest)
-                                    → Graph builder → Dashboard + PDF report
+                                                          ├──► SQLite→Postgres (cases, wallets, txs, entities, risks, audit)
+                                                          └──► Intelligence (seed entity map: exchanges/VASPs)
+                     Transaction Engine (features + Pattern A/B/C) → Risk Engine (weights + IsolationForest)
+                     → Graph builder → Dashboard + PDF report
 ```
 
 ## API
