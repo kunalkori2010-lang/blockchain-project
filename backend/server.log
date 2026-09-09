@@ -1,0 +1,60 @@
+INFO:     127.0.0.1:36500 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36502 - "GET /api/stats/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36504 - "GET /api/cases/search?q=CYB-2026-00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36510 - "GET /api/entities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36512 - "POST /api/entities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36514 - "POST /api/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34955 - "GET /api/cases/CYB-2026-004 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34957 - "POST /api/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63857 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63860 - "POST /api/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:3862 - "GET /api/cases/CYB-2026-004 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54661 - "POST /api/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30378 - "GET /api/cases/CYB-2026-004 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30380 - "POST /api/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:20858 - "GET /api/cases/CYB-2026-004 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:20860 - "POST /api/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45612 - "GET /api/cases/CYB-2026-004 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45614 - "POST /api/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:27939 - "GET /api/stats/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:27941 - "GET /api/alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:18054 - "GET /api/stats/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:18053 - "GET /api/alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:18051 - "GET /api/cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52906 - "GET /api/cases/CYB-2026-004 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19605 - "POST /api/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:27943 - "GET /api/cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62116 - "GET /api/cases/CYB-2026-004 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16998 - "POST /api/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:21120 - "GET /api/cases/CYB-2026-004 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:13415 - "POST /api/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:27239 - "GET /api/cases/CYB-2026-004 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:27241 - "POST /api/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9925 - "GET /api/cases/CYB-2026-004 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9927 - "POST /api/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32231 - "GET /api/cases/CYB-2026-004 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32233 - "POST /api/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43995 - "GET /api/cases/CYB-2026-004 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43997 - "POST /api/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:11267 - "GET /api/cases/CYB-2026-004 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:11269 - "POST /api/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:21051 - "GET /api/stats/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:21050 - "GET /api/alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:21047 - "GET /api/cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10283 - "GET /api/cases HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:10285 - "GET /api/stats/summary HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:10284 - "GET /api/alerts HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:17453 - "GET /api/alerts HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:17454 - "GET /api/stats/summary HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:17456 - "GET /api/cases HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:19637 - "POST /api/auth/register HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:19639 - "GET /api/openapi.json HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:19640 - "GET /api/docs HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33625 - "OPTIONS /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33625 - "POST /api/auth/login HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:33625 - "POST /api/auth/login HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:33625 - "POST /api/auth/login HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:33625 - "POST /api/auth/login HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:33625 - "POST /api/auth/login HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:52233 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48311 - "GET /api/health HTTP/1.1" 200 OK
